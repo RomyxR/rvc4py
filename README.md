@@ -43,5 +43,7 @@ rvc4py.rvc_voice_conversion(
     rmvpe_path="rmvpe.pt",
     )
 ```
+> [!WARNING]
+> You must download hubert_base.pt and rmvpe.pt yourself.
 ## ⭐Acknowledgments
 **Original RVC** - https://github.com/RVC-Project/Retrieval-based-Voice-Conversion

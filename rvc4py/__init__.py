@@ -29,11 +29,9 @@ def rvc_voice_conversion(
 
 
     if index_path is None or not os.path.exists(index_path):
-        index = None
         index_root = ""
         print("index not find")
     else:
-        index = os.path.basename(index_path)
         index_root = os.path.dirname(index_path)
 
 
@@ -52,7 +50,7 @@ def rvc_voice_conversion(
         f0_up_key,      # f0_up_key
         f0_method,      # f0_method
         None,           # f0_file
-        index,          # file_index
+        index_path,          # file_index
         index_rate,     # index_rate
         filter_radius,  # filter_radius
         resample_sr,    # resample_sr

@@ -5,10 +5,10 @@ Simple RVC inference in Python
 ```bash
 # In development
 # Basic installation
-pip install rvc4py
+pip install git+https://github.com/RomyxR/rvc4py.git
 # Installation with GPU support
 pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu130
-pip install rvc4py
+pip install git+https://github.com/RomyxR/rvc4py.git
 ```
 ## 🧩Signature
 ```python

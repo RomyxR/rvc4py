@@ -55,7 +55,7 @@ def rvc_voice_conversion(
         hubert_path = target_file
 
     # Загрузка rmvpe
-    if f0_method == "rvmpe":
+    if f0_method == "rmvpe":
         if not os.path.isfile(rmvpe_path):
             target_dir = os.path.dirname(rmvpe_path) or "."
             target_file = os.path.join(target_dir, "rmvpe.pt")
